@@ -1,4 +1,4 @@
-import { DotLottie } from "@lottiefiles/dotlottie-web";
+import { DotLottie } from "https://cdn.jsdelivr.net/npm/@lottiefiles/dotlottie-web/+esm";
 
 const canvas = document.getElementById("lottie");
 
