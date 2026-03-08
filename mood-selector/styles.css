@@ -1,5 +1,5 @@
 :root {
-  --largura: clamp(500px, 40rem, 100%);
+  --largura: clamp(10rem, 95%, 40rem);
   --altura: calc(var(--largura) / 2);
 }
 
