@@ -15,7 +15,7 @@ const dotLottie = new DotLottie({
   },
   renderConfig: {
     devicePixelRatio: 1,
-    autoResize: true,
+    autoResize: false,
   },
 });
 
