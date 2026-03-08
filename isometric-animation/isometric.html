@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Isometric animation</title>
+  </head>
+  <body>
+    <h2>
+      <a href="../index.html"> Home </a>
+    </h2>
+    <div class="canvas-wrapper">
+      <canvas id="lottie"></canvas>
+    </div>
+    <script type="importmap">
+      {
+        "imports": {
+          "@lottiefiles/dotlottie-web": "../node_modules/@lottiefiles/dotlottie-web/dist/index.js"
+        }
+      }
+    </script>
+    <script src="./isometric.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+:root {
+  --largura: 90vw;
+  --altura: calc(var(--largura) / 2);
+}
+
+.canvas-wrapper {
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+#lottie {
+  width: var(--largura);
+  height: var(--altura);
+  overflow: hidden;
+}
