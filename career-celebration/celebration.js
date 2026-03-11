@@ -22,7 +22,7 @@ const dotLottie = new DotLottie({
 // Wait for animation to load before starting state machine
 dotLottie.addEventListener("load", () => {
   // Load a state machine by ID (defined in the .lottie file)
-  dotLottie.stateMachineLoad("my-state-machine-id");
+  dotLottie.stateMachineLoad("StateMachine1");
 
   // Start the state machine
   dotLottie.stateMachineStart();
